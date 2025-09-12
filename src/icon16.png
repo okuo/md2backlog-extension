@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="128" height="128" rx="16" fill="#007cba"/>
+  
+  <!-- Markdownアイコン風のデザイン -->
+  <rect x="20" y="30" width="88" height="4" rx="2" fill="white"/>
+  <rect x="20" y="45" width="60" height="4" rx="2" fill="white"/>
+  <rect x="20" y="60" width="80" height="4" rx="2" fill="white"/>
+  <rect x="20" y="75" width="50" height="4" rx="2" fill="white"/>
+  
+  <!-- 変換矢印 -->
+  <path d="M60 90 L68 98 L60 106" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M30 98 L65 98" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- B (Backlog) -->
+  <text x="75" y="105" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">B</text>
+</svg>

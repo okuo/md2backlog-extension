@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Markdown to Backlog Converter",
+  "version": "1.0.0",
+  "description": "クリップボードのMarkdownをBacklog記法に変換",
+  "permissions": [
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Markdown → Backlog変換"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
