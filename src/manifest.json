@@ -1,19 +1,22 @@
 {
   "manifest_version": 3,
   "name": "Markdown to Backlog Converter",
+  "short_name": "MD2Backlog",
   "version": "1.0.0",
-  "description": "クリップボードのMarkdownをBacklog記法に変換",
+  "description": "Convert Markdown text from clipboard to Backlog notation format quickly and easily (クリップボードのMarkdownをBacklog記法に変換)",
   "permissions": [
     "clipboardRead",
     "clipboardWrite"
   ],
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Markdown → Backlog変換"
+    "default_title": "Markdown → Backlog Converter"
   },
   "icons": {
-    "16": "icon16.png",
-    "48": "icon48.png",
-    "128": "icon128.png"
-  }
+    "16": "icon-16.png",
+    "48": "icon-48.png",
+    "128": "icon-128.png"
+  },
+  "author": "Developer",
+  "homepage_url": "https://github.com/yourusername/md2backlog-extension"
 }
