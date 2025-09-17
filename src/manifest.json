@@ -2,12 +2,15 @@
   "manifest_version": 3,
   "name": "Markdown to Backlog Converter",
   "short_name": "MD2Backlog",
-  "version": "1.0.0",
-  "description": "Convert Markdown text from clipboard to Backlog notation format quickly and easily (クリップボードのMarkdownをBacklog記法に変換)",
+  "version": "1.0.1",
+  "description": "Convert Markdown to Backlog notation from clipboard. Local processing only - no external data transfer. Compatible with Chrome and Edge.",
   "permissions": [
     "clipboardRead",
     "clipboardWrite"
   ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
   "action": {
     "default_popup": "popup.html",
     "default_title": "Markdown → Backlog Converter"
@@ -19,5 +22,11 @@
     "128": "icon128.png"
   },
   "author": "Developer",
-  "homepage_url": "https://github.com/yourusername/md2backlog-extension"
+  "homepage_url": "https://github.com/yourusername/md2backlog-extension",
+  "minimum_edge_version": "88.0.0",
+  "key_features": [
+    "Cross-browser compatibility (Chrome & Edge)",
+    "Local processing for privacy",
+    "Clipboard-based workflow"
+  ]
 }

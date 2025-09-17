@@ -1,6 +1,6 @@
 # Markdown to Backlog Converter
 
-MarkdownテキストをBacklog記法に変換するシンプルなChrome拡張機能です。
+MarkdownテキストをBacklog記法に変換するシンプルなブラウザ拡張機能です。Chrome・Microsoft Edge対応。
 
 ## 開発背景
 
@@ -43,7 +43,7 @@ ChatGPTなどに代表されるチャットサービスで、課題を取りま�
 ## 使い方
 
 1. ChatGPT等でMarkdownテキストをコピー（Ctrl+C）
-2. Chrome拡張のアイコンをクリック
+2. ブラウザ拡張のアイコンをクリック
 3. 「🔄 変換実行」ボタンをクリック
 4. Backlogで貼り付け（Ctrl+V）
 
@@ -55,10 +55,21 @@ ChatGPTなどに代表されるチャットサービスで、課題を取りま�
 
 ### 開発者モードでインストール
 
+#### Chromeでのインストール
 1. Chromeで `chrome://extensions/` を開く
 2. 右上の「デベロッパーモード」を有効化
 3. 「パッケージ化されていない拡張機能を読み込む」をクリック
 4. `src` フォルダを選択
+
+#### Microsoft Edgeでのインストール
+1. Edgeで `edge://extensions/` を開く
+2. 左下の「開発者モード」を有効化
+3. 「展開して読み込み」をクリック
+4. `src` フォルダを選択
+
+### 拡張機能ストアからのインストール（予定）
+- Chrome Web Store: 準備中
+- Microsoft Edge アドオン: 準備中
 
 ## フォルダ構成
 

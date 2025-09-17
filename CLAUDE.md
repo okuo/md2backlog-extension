@@ -4,13 +4,13 @@
 
 ## プロジェクトについて
 
-MarkdownテキストをBacklog記法に変換するシンプルなChrome拡張機能です。クリップボードのMarkdownを取得し、Backlog記法に変換してクリップボードに戻します。
+MarkdownテキストをBacklog記法に変換するシンプルなブラウザ拡張機能です。Chrome・Microsoft Edge対応。クリップボードのMarkdownを取得し、Backlog記法に変換してクリップボードに戻します。
 
 ## プロジェクト構造
 
 ```
 src/
-├── manifest.json    # Chrome拡張機能の設定（Manifest V3）
+├── manifest.json    # ブラウザ拡張機能の設定（Manifest V3、Chrome・Edge対応）
 ├── popup.html       # ポップアップウィンドウのHTML
 ├── popup.js         # ポップアップの制御ロジック
 ├── converter.js     # Markdown→Backlog変換ロジック
@@ -22,10 +22,17 @@ src/
 
 このプロジェクトはピュアなJavaScript/HTML/CSSで構築されており、特別なビルドプロセスは不要です。
 
-### Chrome拡張機能のテスト
+### ブラウザ拡張機能のテスト
+
+#### Chromeでのテスト
 1. Chromeで `chrome://extensions/` を開く
 2. 「デベロッパーモード」を有効化
 3. 「パッケージ化されていない拡張機能を読み込む」で `src` フォルダを選択
+
+#### Microsoft Edgeでのテスト
+1. Edgeで `edge://extensions/` を開く
+2. 「開発者モード」を有効化
+3. 「展開して読み込み」で `src` フォルダを選択
 
 ### 変換ロジックのテスト
 ブラウザのコンソールで直接テスト可能：
