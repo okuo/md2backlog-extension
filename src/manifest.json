@@ -22,11 +22,5 @@
     "128": "icon128.png"
   },
   "author": "Developer",
-  "homepage_url": "https://github.com/yourusername/md2backlog-extension",
-  "minimum_edge_version": "88.0.0",
-  "key_features": [
-    "Cross-browser compatibility (Chrome & Edge)",
-    "Local processing for privacy",
-    "Clipboard-based workflow"
-  ]
+  "homepage_url": "https://github.com/okuo/md2backlog-extension"
 }
