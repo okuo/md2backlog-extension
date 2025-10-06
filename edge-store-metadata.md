@@ -57,17 +57,13 @@ Chrome・Microsoft Edge両ブラウザ対応。
 ## サポート情報
 
 ### ウェブサイト
-https://github.com/yourusername/md2backlog-extension
+https://github.com/okuo/md2backlog-extension
 
 ### サポート連絡先
-support@yourdomain.com （GitHubのIssueページを案内）
+https://github.com/okuo/md2backlog-extension/issues
 
 ### プライバシーポリシー
-この拡張機能はユーザーのプライバシーを最大限に尊重します：
-- データ収集なし
-- 外部送信なし
-- ローカル処理のみ
-- トラッキングなし
+https://github.com/okuo/md2backlog-extension/blob/main/PRIVACY.md
 
 ## 必要なメディア
 
@@ -100,6 +96,13 @@ support@yourdomain.com （GitHubのIssueページを案内）
 
 ## テスト用アカウント情報
 テスト用アカウント不要（クリップボード機能のみ使用）
+
+## 実績・信頼性
+
+### Chrome Web Store実績
+- **公開済み**: https://chromewebstore.google.com/detail/markdown-to-backlog-conve/lpbkebjdelkibmfjicdehhppeeakhjpe
+- **実績**: Chrome版で正常動作確認済み
+- **同一コードベース**: Edge版は同じソースコードから生成
 
 ## レビューアー向け情報
 

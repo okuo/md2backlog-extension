@@ -78,11 +78,11 @@ Convert Markdown text from ChatGPT, GitHub, and other sources to Backlog notatio
 
 ## プライバシーポリシーのURL
 
-https://github.com/yourusername/md2backlog-extension#プライバシーポリシー
+https://github.com/okuo/md2backlog-extension/blob/main/PRIVACY.md
 
 ## サポートURL
 
-https://github.com/yourusername/md2backlog-extension/issues
+https://github.com/okuo/md2backlog-extension/issues
 
 ## 必要な権限の説明
 

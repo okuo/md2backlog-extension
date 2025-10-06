@@ -8,9 +8,12 @@
 - [x] ストア公開用メタデータ準備 (`edge-store-metadata.md`)
 - [x] README・CLAUDE.md のEdge対応更新
 
-### 🔄 要対応
+### ✅ 更新済み
+- [x] GitHub URLの更新（https://github.com/okuo/md2backlog-extension）
+- [x] Chrome Web Store 公開完了
+
+### 🔄 Edge対応で要対応
 - [ ] スクリーンショット・プロモーション画像の作成
-- [ ] GitHub URLの更新（`yourusername` → 実際のアカウント名）
 - [ ] サポート連絡先の設定
 - [ ] プライバシーポリシーページの作成（オプション）
 

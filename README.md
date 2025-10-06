@@ -67,9 +67,20 @@ ChatGPTなどに代表されるチャットサービスで、課題を取りま�
 3. 「展開して読み込み」をクリック
 4. `src` フォルダを選択
 
-### 拡張機能ストアからのインストール（予定）
-- Chrome Web Store: 準備中
-- Microsoft Edge アドオン: 準備中
+### 拡張機能ストアからのインストール
+
+#### Chrome Web Store（公開中）✅
+[**Chrome Web Storeからインストール**](https://chromewebstore.google.com/detail/markdown-to-backlog-conve/lpbkebjdelkibmfjicdehhppeeakhjpe)
+
+#### Microsoft Edge アドオン（準備中）
+- Microsoft Edge アドオン: 申請準備中
+
+### 配布パッケージのダウンロード（開発者向け）
+GitHub Releasesから配布用zipファイルをダウンロードできます：
+- **Chrome用**: [md2backlog-extension-chrome-v1.0.1.zip](https://github.com/okuo/md2backlog-extension/releases/download/v1.0.1/md2backlog-extension-chrome-v1.0.1.zip)
+- **Edge用**: [md2backlog-extension-edge-v1.0.1.zip](https://github.com/okuo/md2backlog-extension/releases/download/v1.0.1/md2backlog-extension-edge-v1.0.1.zip)
+
+> **一般ユーザーの方**: 上記のChrome Web Storeからのインストールが簡単です
 
 ## フォルダ構成
 
@@ -98,6 +109,8 @@ src/
 
 この拡張機能は、ユーザーのプライバシーを最大限に尊重します。
 
+詳細は [プライバシーポリシー](PRIVACY.md) をご覧ください。
+
 ### データの取り扱い
 
 - **収集するデータ**: なし
@@ -120,7 +133,7 @@ src/
 
 ### お問い合わせ
 
-プライバシーに関するご質問は、GitHubのIssueページまでお寄せください。
+プライバシーに関するご質問は、[GitHubのIssueページ](https://github.com/okuo/md2backlog-extension/issues)までお寄せください。
 
 ## ライセンス
 
