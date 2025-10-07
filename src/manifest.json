@@ -2,8 +2,8 @@
   "manifest_version": 3,
   "name": "Markdown to Backlog Converter",
   "short_name": "MD2Backlog",
-  "version": "1.0.1",
-  "description": "Convert Markdown to Backlog notation from clipboard. Local processing only - no external data transfer. Compatible with Chrome and Edge.",
+  "version": "1.0.2",
+  "description": "Convert Markdown to Backlog notation from clipboard. Local processing only - no external transfer. Chrome and Edge compatible.",
   "permissions": [
     "clipboardRead",
     "clipboardWrite"

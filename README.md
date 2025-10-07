@@ -91,7 +91,23 @@ src/
 ├── popup.js         # UI制御ロジック
 ├── converter.js     # Markdown変換ロジック
 └── icon*.png        # アイコンファイル
+
+tests/
+├── test-manifest-validation.js  # manifest.json バリデーション
+└── test-converter.js            # 変換ロジックのテスト
 ```
+
+## テスト
+
+### manifest.json バリデーション
+```bash
+node tests/test-manifest-validation.js
+```
+
+Chrome Web Store / Edge Add-ons Store の要件をチェック:
+- Description の文字数制限 (132文字以内)
+- バージョン形式の検証
+- 必須フィールドの存在確認
 
 ## エラーハンドリング
 

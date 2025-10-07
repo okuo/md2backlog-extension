@@ -25,9 +25,12 @@ npm-debug.log*
 *.pem
 *.crx
 
-# Test files
+# Test files (root level only, not in tests/ directory)
 test-*.js
 debug-*.js
+# But include tests directory
+!tests/test-*.js
+!tests/debug-*.js
 
 # Node modules (if any)
 node_modules/

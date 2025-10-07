@@ -34,6 +34,15 @@ src/
 2. 「開発者モード」を有効化
 3. 「展開して読み込み」で `src` フォルダを選択
 
+### manifest.json バリデーション
+```bash
+node tests/test-manifest-validation.js
+```
+Chrome Web Store / Edge Add-ons Store の要件チェック:
+- Description の文字数制限 (132文字以内)
+- バージョン形式の検証 (X.Y.Z)
+- 必須フィールドの存在確認
+
 ### 変換ロジックのテスト
 ブラウザのコンソールで直接テスト可能：
 ```javascript
