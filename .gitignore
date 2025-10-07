@@ -24,7 +24,6 @@ npm-debug.log*
 # Chrome extension development
 *.pem
 *.crx
-*.zip
 
 # Test files (root level only, not in tests/ directory)
 test-*.js
