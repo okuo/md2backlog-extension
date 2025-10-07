@@ -1,6 +1,6 @@
 # Markdown to Backlog Converter
 
-MarkdownテキストをBacklog記法に変換するシンプルなブラウザ拡張機能です。Chrome・Microsoft Edge対応。
+MarkdownテキストをBacklog記法に変換するシンプルなChrome拡張機能です。
 
 ## 開発背景
 
@@ -61,26 +61,9 @@ ChatGPTなどに代表されるチャットサービスで、課題を取りま�
 3. 「パッケージ化されていない拡張機能を読み込む」をクリック
 4. `src` フォルダを選択
 
-#### Microsoft Edgeでのインストール
-1. Edgeで `edge://extensions/` を開く
-2. 左下の「開発者モード」を有効化
-3. 「展開して読み込み」をクリック
-4. `src` フォルダを選択
-
 ### 拡張機能ストアからのインストール
 
-#### Chrome Web Store（公開中）✅
 [**Chrome Web Storeからインストール**](https://chromewebstore.google.com/detail/markdown-to-backlog-conve/lpbkebjdelkibmfjicdehhppeeakhjpe)
-
-#### Microsoft Edge アドオン（準備中）
-- Microsoft Edge アドオン: 申請準備中
-
-### 配布パッケージのダウンロード（開発者向け）
-GitHub Releasesから配布用zipファイルをダウンロードできます：
-- **Chrome用**: [md2backlog-extension-chrome-v1.0.1.zip](https://github.com/okuo/md2backlog-extension/releases/download/v1.0.1/md2backlog-extension-chrome-v1.0.1.zip)
-- **Edge用**: [md2backlog-extension-edge-v1.0.1.zip](https://github.com/okuo/md2backlog-extension/releases/download/v1.0.1/md2backlog-extension-edge-v1.0.1.zip)
-
-> **一般ユーザーの方**: 上記のChrome Web Storeからのインストールが簡単です
 
 ## フォルダ構成
 
@@ -104,7 +87,7 @@ tests/
 node tests/test-manifest-validation.js
 ```
 
-Chrome Web Store / Edge Add-ons Store の要件をチェック:
+Chrome Web Store の要件をチェック:
 - Description の文字数制限 (132文字以内)
 - バージョン形式の検証
 - 必須フィールドの存在確認
@@ -119,7 +102,7 @@ Chrome Web Store / Edge Add-ons Store の要件をチェック:
 
 - **Manifest Version**: 3
 - **必要な権限**: `clipboardRead`, `clipboardWrite`
-- **対応ブラウザ**: Chrome, Edge（Chromium系）
+- **対応ブラウザ**: Chrome
 
 ## プライバシーポリシー
 

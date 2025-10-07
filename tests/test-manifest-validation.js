@@ -1,5 +1,5 @@
 // manifest.json のバリデーションテスト
-// Chrome Web Store / Edge Add-ons Store の要件をチェック
+// Chrome Web Store の要件をチェック
 
 const fs = require('fs');
 const path = require('path');
